@@ -1,8 +1,8 @@
 const Router = require('express').Router()
-const PointsRouter = require('./PointsRouter')
+const PointRouter = require('./PointRouter')
 
 
-Router.use('/points', PointsRouter)
+Router.use('/points', PointRouter)
 
 
 module.exports = Router
